@@ -8,4 +8,4 @@ An ensemble approach combines Logistic Regression, Random Forest, and Gradient B
 
 All models run independently in a production pipeline that transforms raw text into predictions and exports results to CSV. Evaluation uses a weighted score emphasizing secondary category and severity.
 
-note: all the notebook was made in VS Code and executed using virtual environment.
+note: the notebook was made in VS Code and executed using virtual environment.
