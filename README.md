@@ -7,3 +7,5 @@ The system applies strong text preprocessing and TF-IDF feature engineering, enh
 An ensemble approach combines Logistic Regression, Random Forest, and Gradient Boosting, with Gradient Boosting performing best overall. The final architecture uses three specialized models: Gradient Boosting for severity, Random Forest for primary category, and Gradient Boosting for secondary category.
 
 All models run independently in a production pipeline that transforms raw text into predictions and exports results to CSV. Evaluation uses a weighted score emphasizing secondary category and severity.
+
+note: all the notebook was made in VS Code and executed using virtual environment.
